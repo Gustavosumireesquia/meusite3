@@ -9,29 +9,30 @@ body {
 }
 .imagen {
     position: absolute;
-    top: 48%;
-    left: 28.5%;
+    top: 46%;
+    left: 30%;
     transform: translate(-50%, -50%);
     
 }
 .nome {
     position: absolute;
     margin-bottom: 0%;
-    margin-top: 30px;
+    margin-top: 100px;
     margin-left: 25%;
     font-weight: 32px;
     font-family: cursive;
-    font-size: 34px;
+    font-size: 45px;
     color: rgb(255, 255, 255);
 }
 
 .redessociais {
+    display: flex;
     position: absolute;
     font-size: 30px;
-    margin-top: 8%;
+    margin-top: 16%;
     margin-bottom: 20%;
     margin-right: 10%;
-    margin-left: 26%;
+    margin-left: 38%;
     justify-content: center;
     align-items: center;
 }
@@ -40,7 +41,7 @@ body {
     height: 35px;
     width: 35px;
     border-radius: 30px;
-    transition: all 0.3 ease-out;
+    transition: all 0.4s ease-out;
     box-shadow: 0 5px rgb(56, 2, 182);
     margin: 6px;
     overflow: hidden;
@@ -54,7 +55,7 @@ body {
     text-align: center;
     font-size: 25px;
     border-radius: 30px;
-    background-color: rgb(41, 10, 107);
+    background-color: rgb(93, 78, 126);
     color: black;
     cursor: pointer;
 }
@@ -74,17 +75,72 @@ body {
     background-color: rgb(60, 17, 161);
 }
 
-.parrafo{
-    font-size: 20px;
+.texto{
+    font-size: 15px;
     color: rgb(255, 255, 255);
     font-family: cursive;
     position: absolute;
-    max-width: 200px;
-    margin-left: 900px;
-    margin-top: 90px;
-    padding: 16px;
+    max-width: 680px;
+    margin-left: 380px;
+    margin-top: 468px;
+    padding: 15px;
     border-radius: 30px;
     background-color: rgb(41, 10, 107);
-    box-shadow: 20px 20px 20px ;
+    box-shadow: 10px 10px 10px;
+}
 
+.sobreEnt {
+    position: absolute;
+    top: -40%;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    text-align: center right;
+    margin-left: 0%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.projetos {
+    flex-direction: column;
+    margin-top: 530px;
+    margin-left: 350px;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+.linguagem{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    font-size: 20px;
+    font-family: cursive;
+
+}
+
+.front img {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(255, 255, 255);
+}
+
+.back img{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin-left: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: #3d0690;
+    color: aqua;
+    box-shadow: 10px 10px 10px rgb(255, 255, 255);
 }
