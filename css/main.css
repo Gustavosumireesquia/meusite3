@@ -149,8 +149,7 @@ body {
     font-family: cursive;
     font-size: 38px;
     position: flex;
-    margin-top: 750;
-    margin-left: 200;
+    text-align: center;
     color: aliceblue;
 
 }
@@ -159,21 +158,23 @@ body {
     position: absolute;
     margin-top: 900px;
     margin-left: 260px;
+    margin-bottom: 250px;
 }
 
 .item {
     position: sticky;
     font-family: cursive;
+    width: 688px;
+    text-align: center;
     font-size: 30px;
     margin-top: 20px;
-    margin-left: 260px;
-    margin-right: 350px;
+    margin-left: 10px;
     color: rgb(0, 0, 0);
     border-radius: 450px;
     background-color: rgb(255, 255, 255);
 }
 .item:hover {
-    transition: 0.9s;
+    transition: 0.5s;
     background-color: rgb(0, 0, 0);
     color: rgb(253, 253, 253);
 }
@@ -186,3 +187,65 @@ body {
 #movie.active {
     display: block;
 }
+
+@media (max-width: 700px) {
+    .imagen img{
+        margin-top: -210px;
+        position: absolute;
+        top: -30px;
+        left: -170px;
+        width: 450px;
+    }
+    .sobreEnt {
+        font-size: 15px;
+        margin-top: -2px;
+        margin-left: 5px;
+    }
+    .texto {
+        margin-top: 250px;
+        margin-left: 210px;
+        font-size: 8px;
+        width: 250px;
+        height: 60px;
+    }
+    .nome {
+        margin-top: 50px;
+        margin-left: 130px;
+        width: 250;
+        font-weight: 32px;
+        font-family: cursive;
+        font-size: 25px;
+    }
+    .linguagem {
+        margin-top: 400px;
+        margin-left: 1px;
+        position: absolute;
+    }
+    .subtitulo {
+        margin-top: 370px;
+        margin-left: 80px;
+        font-size: 22px;
+    }
+    .subtitulo2 {
+        position: center;
+        margin-top: -320px;
+        margin-left: -200px;
+        font-size: 22px;
+    }
+    .item {
+        margin-top: 50px;
+        margin-left: -100px;
+        width: 200px;
+    }
+    #movie {
+        width: 200px;
+    }
+}
+
+
+
+
+
+
+
+
